@@ -142,3 +142,133 @@ body{
     line-height: 1.2;
     font-size: 14px;
 }
+.popular-courses {
+  padding: 60px 40px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.popular-courses h2 {
+  color: #f95f19;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.filters button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f0f0f0;
+  color: #333;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.filters button.active,
+.filters button:hover {
+  background-color: #015a4a;
+  color: white;
+}
+
+.courses-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.course-card {
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #eee;
+  background: #fff;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+.course-card img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+}
+
+.course-infos {
+  padding: 15px;
+  text-align: left;
+}
+
+.students {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.students img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.students span {
+  margin-left: auto;
+  font-size: 13px;
+  color: #777;
+}
+
+.date {
+  font-size: 12px;
+  color: #999;
+}
+
+.course-infos h3 {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #0e4f3c;
+}
+
+.desc {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.course-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-footer .price {
+  color: #f95f19;
+  font-weight: 600;
+}
+
+.course-footer del {
+  color: #ccc;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.course-footer button {
+  background-color: #015a4a;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+}
