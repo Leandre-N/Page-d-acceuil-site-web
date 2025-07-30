@@ -272,3 +272,78 @@ body{
   font-size: 13px;
   cursor: pointer;
 }
+.categories {
+  padding: 80px 40px;
+  background-color: #f6f6f6;
+  text-align: center;
+}
+
+.categories h2 {
+  font-size: 28px;
+  color: #0e4f3c;
+  margin-bottom: 10px;
+}
+
+.categories .subtext {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.category-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.category-card {
+  background: white;
+  border-radius: 12px;
+  padding: 30px 20px;
+  width: 240px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+}
+
+.category-card img {
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.category-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #0e4f3c;
+}
+
+.category-card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.btn-white {
+  display: inline-block;
+  background: white;
+  color: #0e4f3c;
+  border: 1px solid #ccc;
+  padding: 8px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-orange {
+  display: inline-block;
+  background: #fd6e0a;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
