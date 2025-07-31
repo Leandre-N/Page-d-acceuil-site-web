@@ -272,24 +272,39 @@ body{
   font-size: 13px;
   cursor: pointer;
 }
-.categories {
+.categories-section {
   padding: 80px 40px;
-  background-color: #f6f6f6;
   text-align: center;
+  background-color: #fff;
 }
 
-.categories h2 {
-  font-size: 28px;
-  color: #0e4f3c;
+
+.section-title {
+  font-size: 32px;
+  color: #014034;
+  position: relative;
+  display: inline-block;
   margin-bottom: 10px;
+  font-weight: 600;
 }
 
-.categories .subtext {
-  color: #666;
+.section-title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #f26c4f;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.section-subtitle {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  color: #555;
   font-size: 16px;
-  margin-bottom: 40px;
 }
-
 .category-grid {
   display: flex;
   flex-wrap: wrap;
@@ -346,4 +361,17 @@ body{
   border-radius: 6px;
   text-decoration: none;
   font-weight: 600;
+}
+.site-footer {
+  background-color: #4d5a58;
+  color: #fff;
+  padding: 20px 10px 5px;
+  font-family: 'Segoe UI', sans-serif;
+}
+.footer-bottom {
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  font-size: 14px;
+  color: #bbb;
 }
