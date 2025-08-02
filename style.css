@@ -362,6 +362,87 @@ body{
   text-decoration: none;
   font-weight: 600;
 }
+.student-id-section {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.view-all-wrapper {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.view-all {
+  background-color: white;
+  border: 1px solid #0099cc;
+  color: #0099cc;
+  padding: 8px 18px;
+  border-radius: 24px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.view-all:hover {
+  background-color: #0099cc;
+  color: white;
+}
+
+.student-id-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.text-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.text-content .tag {
+  background: #e7f8f9;
+  color: #0099cc;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.text-content h2 {
+  color: #003b5b;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.benefits-list {
+  list-style: none;
+  padding: 0;
+}
+
+.benefits-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  line-height: 1.5;
+  color: #444;
+}
+
+.benefits-list li img {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+}
+
+.image-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
 .site-footer {
   background-color: #4d5a58;
   color: #fff;
