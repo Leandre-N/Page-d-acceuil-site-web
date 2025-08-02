@@ -443,6 +443,65 @@ body{
   height: auto;
   border-radius: 12px;
 }
+.staff-training-section {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.staff-training-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.training-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.training-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.orange-title {
+  color: #ff5a00;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.blue-tag {
+  background-color: #e0edff;
+  color: #397eff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.benefits-list {
+  list-style: none;
+  padding: 0;
+}
+
+.benefits-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  line-height: 1.5;
+  color: #444;
+}
+
+.benefits-list li img {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
+}
 .site-footer {
   background-color: #4d5a58;
   color: #fff;
