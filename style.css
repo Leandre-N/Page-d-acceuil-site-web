@@ -8,13 +8,21 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background-color: #f5f8f6;
+    background-color: #eaf4f2;
 }
 .menu a {
     margin: 0 15px;
     text-decoration: none;
     color: #0e4f3c;
     font-weight: 600;
+}
+.btn-menu {
+  background-color: #eaf4f2;
+  border: none;
+  color: #0a0a0a;
+}
+.btn-menu:hover {
+  color: #FF8243;
 }
 .auth-buttons .login,
 .auth-buttons .signup {
@@ -34,6 +42,13 @@ body{
 .auth-buttons .signup {
     background-color: #0e4f3c;
     color: white;
+}
+.deco {
+  flex: 1;
+  text-align: center;
+}
+.deco img {
+  height: auto;
 }
 .hero {
     display: flex;
@@ -272,7 +287,7 @@ body{
   font-size: 13px;
   cursor: pointer;
 }
-.categories-section {
+.category-section {
   padding: 80px 40px;
   text-align: center;
   background-color: #fff;
@@ -501,6 +516,81 @@ body{
   width: 32px;
   height: 32px;
   margin-right: 12px;
+}
+.giftcard-section {
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+}
+
+.giftcard-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff1e1e;
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 1100px;
+  width: 100%;
+  color: white;
+  flex-wrap: wrap;
+  gap: 30px;
+  overflow: hidden;
+}
+
+.giftcard-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.giftcard-text h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.giftcard-benefits {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.giftcard-benefits li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.giftcard-benefits li img {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+
+.buy-now-btn {
+  background-color: white;
+  color: #008fd6;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.buy-now-btn:hover {
+  background-color: #0099cc;
+  color: white;
+}
+.giftcard-image {
+  flex: 1;
+  text-align: center;
+  
+}
+
+.giftcard-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
 }
 .site-footer {
   background-color: #4d5a58;
