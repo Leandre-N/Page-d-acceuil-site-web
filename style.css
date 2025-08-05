@@ -38,18 +38,11 @@ body{
     color: #0e4f3c;
     border: 1px solid #0e4f3c;
 }
-
 .auth-buttons .signup {
     background-color: #0e4f3c;
     color: white;
 }
-.deco {
-  flex: 1;
-  text-align: center;
-}
-.deco img {
-  height: auto;
-}
+
 .hero {
     display: flex;
     justify-content: space-between;
@@ -592,16 +585,183 @@ body{
   object-fit: contain;
   display: block;
 }
-.site-footer {
-  background-color: #4d5a58;
-  color: #fff;
-  padding: 20px 10px 5px;
-  font-family: 'Segoe UI', sans-serif;
-}
-.footer-bottom {
+bundles {
   text-align: center;
-  padding-top: 10px;
-  border-top: 1px solid rgba(255,255,255,0.1);
+  padding: 60px 20px;
+}
+
+.bundles h2 {
+  font-size: 2.2rem;
+  color: #05656f;
+  position: relative;
+}
+
+.underline {
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: orange;
+  margin: 8px auto;
+  border-radius: 4px;
+}
+
+.description {
+  max-width: 600px;
+  margin: 10px auto 40px;
+  color: #777;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 30px;
+  padding-bottom: 20px;
+}
+
+.card {
+  min-width: 320px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+  scroll-snap-align: start;
+}
+
+.card-img {
+  background: #007F8C;
+  padding: 40px;
+  position: relative;
+}
+
+.price {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  background: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  color: red;
+  font-weight: bold;
+}
+
+.price s {
+  color: #aaa;
+  margin-left: 5px;
+}
+
+.card-content {
+  padding: 20px;
+  text-align: left;
+}
+
+.card-content h3 {
+  color: #05656f;
+  margin-top: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.avatars img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: -5px;
+}
+.site-footer {
+  background-color: #D6F0ED;
+  padding: 60px 30px 0;
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  z-index: 2;
+  position: relative;
+}
+
+.footer-block {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-logo {
+  width: 140px;
+  margin-bottom: 15px;
+}
+
+.footer-block h4 {
+  font-size: 18px;
+  color: #05656f;
+  margin-bottom: 15px;
+}
+
+.footer-block p,
+.footer-block a {
   font-size: 14px;
-  color: #bbb;
+  color: #444;
+  text-decoration: none;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-block a:hover {
+  color: #05656f;
+}
+.footer-block .icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+.newsletter label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.email-field {
+  display: flex;
+}
+
+.email-field input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+}
+
+.email-field button {
+  background-color: #05656f;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+.email-field button:hover {
+  background-color: #034e53;
+}
+.footer-curve {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer-curve img {
+  width: 100%;
+  display: block;
 }
