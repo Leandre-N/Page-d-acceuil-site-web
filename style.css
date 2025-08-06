@@ -49,6 +49,13 @@ body{
     align-items: center;
     padding: 60px 50px;
     background-color: #eaf4f2;
+    position: relative;
+    background-image: url(img/deco.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 50px;
+    color: #333;
 }
 
 .hero-left {
@@ -67,6 +74,7 @@ body{
 }
 .hero h1 {
     font-size: 42px;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     color: #0e4f3c;
     line-height: 1.3;
@@ -585,7 +593,7 @@ body{
   object-fit: contain;
   display: block;
 }
-bundles {
+.bundles {
   text-align: center;
   padding: 60px 20px;
 }
